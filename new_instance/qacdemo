@@ -1,0 +1,17 @@
+URL=https://tutorials.qaconsole.io/
+USER_EMAIL=demo@qaconsole.io
+USER_PASSWORD=demo
+
+
+curl -X POST -F "result=@xunit.xml" -F "projectName=ReportingSvc" -F "environment=CI" -F "apiKey=a56f391f-b767-4900-971c-6caa576ccae5" https://tutorials.qaconsole.io/testrunsMultipart
+
+
+curl -X POST -F "result=@junit.xml" -F "projectName=Login" -F "environment=Stage" -F "apiKey=a56f391f-b767-4900-971c-6caa576ccae5" https://tutorials.qaconsole.io/testrunsMultipart
+
+curl -X POST -F "result=@surefire.xml" -F "projectName=Sanity" -F "environment=Production" -F "apiKey=a56f391f-b767-4900-971c-6caa576ccae5" https://tutorials.qaconsole.io/testrunsMultipart
+
+
+
+curl -X POST -F "result=@junit_earlier.xml" -F "projectName=Login" -F "environment=Stage" -F "apiKey=a56f391f-b767-4900-971c-6caa576ccae5" https://tutorials.qaconsole.io/testrunsMultipart
+
+curl -X POST -F "result=@junit_with_id.xml" -F "projectName=Login" -F "environment=Stage" -F "apiKey=a56f391f-b767-4900-971c-6caa576ccae5" https://tutorials.qaconsole.io/testrunsMultipart

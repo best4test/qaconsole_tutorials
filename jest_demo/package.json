@@ -1,0 +1,17 @@
+{
+  "name": "jest_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  },
+  "dependencies": {
+    "jest-qaconsole-reporter": "^1.0.0"
+  }
+}
