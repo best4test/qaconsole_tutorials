@@ -1,0 +1,44 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                      https://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+    <servers>
+        <server>
+            <id>qaconsole</id>
+            <configuration>
+                <httpConfiguration>
+                    <all>
+                        <params>
+<!--                            <property>-->
+<!--                                <name>http.authentication.preemptive</name>-->
+<!--                                <value>%b,true</value>-->
+<!--                            </property>-->
+<!--                            <param>-->
+<!--                                <name>apiKey</name>-->
+<!--                                <value>asdf1234</value>-->
+<!--                            </param>-->
+<!--                            <param>-->
+<!--                                <name>environment</name>-->
+<!--                                <value>Local</value>-->
+<!--                            </param>-->
+<!--                            <param>-->
+<!--                                <name>projectName</name>-->
+<!--                                <value>Java Maven</value>-->
+<!--                            </param>-->
+                        </params>
+                    </all>
+                </httpConfiguration>
+            </configuration>
+        </server>
+        <server>
+            <id>ftp-qaconsole</id>
+            <username>tutorials</username>
+            <password>demo</password>
+            <configuration>
+                <passiveMode>false</passiveMode>
+            </configuration>
+        </server>
+    </servers>
+
+</settings>
