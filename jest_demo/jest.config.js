@@ -3,7 +3,7 @@
 
 module.exports = {
 
-  reporters: [ "default",["jest-qaconsole-reporter", {"url": "http://localhost:5000/","apiKey":"bec4ca8a-e07b-4874-b7d9-bb21c9c622a4","projectName": "Jest", "environment":"Stage"}] ],
+  reporters: [ "default",["jest-qaconsole-reporter", {"url": "https://tutorials.qaconsole.io/","apiKey":"bec4ca8a-e07b-4874-b7d9-bb21c9c622a4","projectName": "Jest", "environment":"Local"}] ],
 
 
 

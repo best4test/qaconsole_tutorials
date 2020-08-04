@@ -10,22 +10,6 @@
                 <httpConfiguration>
                     <all>
                         <params>
-<!--                            <property>-->
-<!--                                <name>http.authentication.preemptive</name>-->
-<!--                                <value>%b,true</value>-->
-<!--                            </property>-->
-<!--                            <param>-->
-<!--                                <name>apiKey</name>-->
-<!--                                <value>asdf1234</value>-->
-<!--                            </param>-->
-<!--                            <param>-->
-<!--                                <name>environment</name>-->
-<!--                                <value>Local</value>-->
-<!--                            </param>-->
-<!--                            <param>-->
-<!--                                <name>projectName</name>-->
-<!--                                <value>Java Maven</value>-->
-<!--                            </param>-->
                         </params>
                     </all>
                 </httpConfiguration>
